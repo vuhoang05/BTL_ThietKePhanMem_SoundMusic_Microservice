@@ -4,6 +4,8 @@ import Contact from './pages/customer/Contact'
 import About from './pages/customer/Player'
 import CustomerLayout from './shared/layouts/CustomerLayout'
 import Player from './pages/customer/Player'
+import Home from './pages/customer/Home'
+
 
 
 function App() {
@@ -13,6 +15,7 @@ function App() {
         {/* Customer */}
         <Route path='/' element={<CustomerLayout />}>
           <Route path="player" element={<Player />} />
+          <Route path="/" element={<Home/>} />
           <Route path="contact" element={<Contact />} />
         </Route>
       </Routes>

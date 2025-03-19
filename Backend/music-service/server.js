@@ -22,22 +22,40 @@ const SongSchema = new mongoose.Schema({
 const Song = mongoose.model("Song", SongSchema);
 // const songs = [
 //     {
-//       title: "Lofi Chill",
-//       artist: "Unknown",
+//       title: "Rap-t",
+//       artist: "23Setb",
 //       src: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3",
-//       cover: "https://source.unsplash.com/200x200/?lofi"
+//       cover: "https://th.bing.com/th/id/OIP.LeeLWDpyE-41sTJmk1SDBwHaHa?w=1000&h=1000&rs=1&pid=ImgDetMain"
 //     },
 //     {
-//       title: "Relaxing Piano",
-//       artist: "Unknown",
+//       title: "Love",
+//       artist: "Taylor",
 //       src: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-2.mp3",
-//       cover: "https://source.unsplash.com/200x200/?piano"
+//       cover: "https://th.bing.com/th/id/R.3e4229ffd23ccb3e68d2375ba94753e4?rik=Z%2bzAxqvt%2f9bTyA&pid=ImgRaw&r=0"
 //     },
 //     {
-//       title: "Acoustic Guitar",
-//       artist: "Unknown",
+//       title: "Young",
+//       artist: "21 Savage",
 //       src: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-3.mp3",
-//       cover: "https://source.unsplash.com/200x200/?guitar"
+//       cover: "https://th.bing.com/th/id/OIP.J0i6V2456LpfjzpV1NkLowHaHa?rs=1&pid=ImgDetMain"
+//     },
+//     {
+//       title: "Rap-t",
+//       artist: "23Setb",
+//       src: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3",
+//       cover: "https://th.bing.com/th/id/OIP.LeeLWDpyE-41sTJmk1SDBwHaHa?w=1000&h=1000&rs=1&pid=ImgDetMain"
+//     },
+//     {
+//       title: "Love",
+//       artist: "Taylor",
+//       src: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-2.mp3",
+//       cover: "https://th.bing.com/th/id/R.3e4229ffd23ccb3e68d2375ba94753e4?rik=Z%2bzAxqvt%2f9bTyA&pid=ImgRaw&r=0"
+//     },
+//     {
+//       title: "Young",
+//       artist: "21 Savage",
+//       src: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-3.mp3",
+//       cover: "https://th.bing.com/th/id/OIP.J0i6V2456LpfjzpV1NkLowHaHa?rs=1&pid=ImgDetMain"
 //     }
 //   ];
   

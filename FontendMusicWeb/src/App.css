@@ -1,0 +1,10 @@
+/* Ẩn thanh cuộn trên trình duyệt Chrome, Safari */
+.scrollbar-hide::-webkit-scrollbar {
+    display: none;
+  }
+  
+  /* Ẩn thanh cuộn trên Firefox */
+  .scrollbar-hide {
+    scrollbar-width: none;
+  }
+  
