@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Play, Pause } from "lucide-react";
-import { ISong } from "../../type";
+import { ISong } from "../../types/Song";
 
 interface SongItemProps {
   song: ISong;

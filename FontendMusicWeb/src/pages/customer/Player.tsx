@@ -1,6 +1,6 @@
 import React, { useRef, useEffect, useState } from "react";
 import { Play, Pause, SkipForward, SkipBack, Shuffle, Volume2 } from "lucide-react";
-import { ISong } from "../../type";
+import { ISong } from "../../types/Song";
 
 interface PlayerProps {
   song: ISong;
@@ -83,7 +83,7 @@ const Player: React.FC<PlayerProps> = ({ song, isPlaying, onTogglePlay, onNext, 
 
       <div className="flex flex-col items-center w-2/4">
         <div className="flex items-center space-x-4 mb-2">
-          <button className="text-gray-400 hover:text-white">
+          <button title="a" className="text-gray-400 hover:text-white">
             <Shuffle size={20} />
           </button>
           <button onClick={onPrev} className="text-gray-400 hover:text-white">
@@ -99,7 +99,7 @@ const Player: React.FC<PlayerProps> = ({ song, isPlaying, onTogglePlay, onNext, 
 
         <div className="flex items-center w-full space-x-4">
           <span className="text-sm text-gray-400">{formatTime(currentTime)}</span>
-          <input
+          <input title="2"
             type="range"
             value={currentTime}
             max={duration}
@@ -112,7 +112,7 @@ const Player: React.FC<PlayerProps> = ({ song, isPlaying, onTogglePlay, onNext, 
 
       <div className="flex items-center space-x-2 w-1/4 justify-end">
         <Volume2 size={20} className="text-gray-400" />
-        <input
+        <input title="3"
           type="range"
           value={volume}
           min={0}

@@ -1,5 +1,5 @@
 import React from "react";
-import { Search, Plus } from "lucide-react";
+import { Plus } from "lucide-react";
 
 const playlists = [
   { name: "EDM Sampling", cover: "https://th.bing.com/th/id/OIP._xxqbbOVibbWwURMMbBtcwHaEo?rs=1&pid=ImgDetMain" },
@@ -22,10 +22,13 @@ const Sidebar: React.FC = () => {
       {/* Menu */}
       <div className="space-y-2 text-gray-400">
         <button className="flex items-center space-x-2 w-full p-2 rounded-md hover:bg-gray-700">
+            <span>📁</span> <span>Tạo playlist</span>
+          </button>
+        <button className="flex items-center space-x-2 w-full p-2 rounded-md hover:bg-gray-700">
           <span>🎵</span> <span>Bài hát đã thích</span>
         </button>
         <button className="flex items-center space-x-2 w-full p-2 rounded-md hover:bg-gray-700">
-          <span>📁</span> <span>Tập của bạn</span>
+          <span>📁</span> <span>Tập bài hát của bạn</span>
         </button>
       </div>
 
